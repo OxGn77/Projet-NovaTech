@@ -1,3 +1,23 @@
-h1 {
-    color: blue;    
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333333;
+}
+
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #d9534f;
+    text-decoration: none;
+    font-weight: bold;
 }
